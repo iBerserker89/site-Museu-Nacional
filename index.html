@@ -8,14 +8,14 @@
 </head>
 <body>
     
-    <div id="container"><!--Início container-->
-        
+    <div id="container"> <!--Início container-->
+
         <header>
             <div id="logo">
                 <h1><a href="">Museu Nacional</a></h1>
             </div>
 
-            <nav><!--Início Nav-->
+            <nav> <!--Início Nav-->
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -39,10 +39,128 @@
                         <a href="index.html">Contato</a>
                     </li>
                 </ul>
-            </nav><!--Fim Nav-->
+            </nav> <!--Fim Nav-->
         </header>
 
-    </div><!--Fim container-->
+        <main id="principal"> <!--Início principal-->
+
+            <div id="conteudo"><!--Inicio conteúdo-->
+                <section id="capa">
+                    <img src="./images/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=K3djNkxvqnC49MxX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311821341!2d-43.22910382468973!3d-22.9057599792558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1710970300232!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                        
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur </a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur adipiscing </a>
+                            </li>
+                            <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, </a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur </a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </li>
+                            <li>
+                                <a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                            </li>
+                            <li>
+                                <a href=""><strong>Veja todo (56)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Mauris pharetra magna et nisi tempus aliquet. Aliquam sit amet neque convallis, finibus dui eget, mattis erat. Nunc sit amet purus eget nibh malesuada imperdiet. Vestibulum vel libero neque. Morbi sit amet imperdiet quam. In gravida velit lacus, ac pulvinar est vestibulum ut. Phasellus congue, eros eu varius dignissim, sem nunc congue sem, ac pharetra leo turpis quis neque. Ut consequat arcu justo, vitae tempor neque euismod tempus. 
+                        </p>
+                        <a href=""><strong>Leia mais!</strong></a>
+                    </article>
+
+                </section>
+
+            </div><!--Fim conteúdo-->
+
+            <aside><!--Inicio aside-->
+               <section id="depoimento">
+                    <img src="./images/depoimento.png" alt="">
+               </section>
+               <section id="visita"><!--Inicio Visita-->
+                    <h4>Faça uma visita</h4>
+                    <form >
+                        <fieldset>
+                            <legend>Selecione uma data:</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="00/00/0000">
+                            
+                            <label for="qtd">Qtd Pessoas</label>
+                            <input class="campo" type="text" id="qtd" value="1"
+                            style="width: 30px;">
+                        </fieldset>  
+                        
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+               </section><!--Fim Visita-->
+
+               <section id="galeria">
+                    <h1>Galeria de fotos</h1>
+                    <a href="">
+                        <img src="./images/imagem1.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="./images/imagem2.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="./images/imagem3.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="./images/imagem4.jpg" height="93px" width="93px">
+                    </a>
+               </section>
+
+            </aside><!--Fim aside-->
+
+            <footer>
+                <p>
+                    <a href="#">home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Vídeos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p>
+                    2024 <a href="#">Museu Nacional</a> - Luciano Barros - Todos os direitos reservados.
+                </p>
+            </footer>
+
+        </main> <!--Fim principal-->
+
+    </div> <!--Fim container-->
 
 </body>
 </html>
